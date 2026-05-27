@@ -1,5 +1,9 @@
 # Study Log
 
+git add .
+git commit -m "Resolve merge conflict"
+git push -u origin main
+
 ## 2026-05-26
 
 ### Today I Learned
