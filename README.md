@@ -69,3 +69,15 @@ git push -u origin main
 ### 느낀점
 sql도 생각보다 더 중요한것 같다.
 백엔드 공부도 열심히 해야겠다.
+
+
+
+## 2026-06-01
+
+### Today I Learned
+- # Python
+  - 클래스 변수(Class Variable)에 대해 학습했다.
+  - 상속(Inheritance)의 개념과 사용 방법을 학습했다.
+
+### 느낀점
+상속을 통해 코드를 효율적으로 관리할 수 있다는 점이 인상적이었다. Python은 활용성이 높은 언어인 것 같다.
