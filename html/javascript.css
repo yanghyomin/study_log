@@ -1,0 +1,44 @@
+.alert-box {
+  width: 500px;
+  padding: 15px 40px 15px 15px;
+  border-radius: 4px;
+  margin: 10px 0;
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+.alert-warning {
+  background: #fff3cd;
+  border: 1px solid #ffeeba;
+}
+
+.alert-info {
+  background: #cce5ff;
+  border: 1px solid #b8daff;
+}
+
+.alert-secondary {
+  background: #e2e3e5;
+  border: 1px solid #d6d8db;
+}
+
+.close-btn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 20px;
+  border: none;
+  background: none;
+}
+
+.show-btn {
+  margin-top: 20px;
+  padding: 8px 16px;
+  background: #c82333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

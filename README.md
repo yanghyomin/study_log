@@ -81,3 +81,15 @@ sql도 생각보다 더 중요한것 같다.
 
 ### 느낀점
 상속을 통해 코드를 효율적으로 관리할 수 있다는 점이 인상적이었다. Python은 활용성이 높은 언어인 것 같다.
+
+
+
+## 2026-06-02
+
+### Today I Learned
+- # HTML
+  - JavaScript document.getElementById('hello').innerHTML = '안녕'; 와 같은 코드 학습.
+  - function 함수로 python def 처럼 함수로 이용가능.
+
+### 느낀점
+HTML에 관심이 많은데, JavaScript를 통해 더욱 다양한 화면과 기능을 구현할 수 있다는 것을 알게 되었다. 앞으로 더 많은 기능을 배워 웹 개발 실력을 키우고 싶다.

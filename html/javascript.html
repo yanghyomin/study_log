@@ -1,0 +1,43 @@
+<!-- 2026-06-02 -->
+
+<!-- javascript -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js_study</title>
+    <link href="../html/javascript.css" rel="stylesheet">
+</head>
+<body>
+    <script>
+        function 닫기(id){ // id를 매개변수로 입력
+            document.getElementById(id).style.display = 'none'
+        }
+
+        function 모두재설정(){
+            document.getElementById('one').style.display = 'block';
+            document.getElementById('two').style.display = 'block';
+            document.getElementById('three').style.display = 'block';
+        }
+    </script>
+
+
+    <div class="alert-box alert-warning" id="one">
+        <span>알람이 왔습니다.</span>
+        <button class="close-btn" onclick="닫기('one')">x</button>
+    </div>
+
+    <div class="alert-box alert-info" id="two">
+        <span>알람이 왔습니다.</span>
+        <button class="close-btn" onclick="닫기('two')">x</button>
+    </div>
+    
+    <div class="alert-box alert-secondary" id="three">
+        <span>알람이 왔습니다.</span>
+        <button class="close-btn" onclick="닫기('three')">x</button>
+    </div>
+
+    <button class="show-btn" onclick="모두재설정()">알림창 다시 띄우기</button>
+</body>
+</html>
