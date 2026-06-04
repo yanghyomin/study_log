@@ -1,0 +1,46 @@
+<!-- 2026-06-02 -->
+
+<!-- javascript -->
+<!-- querySelectorAll(),addEventListener(),querySelector() 활용 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js_study</title>
+    <link href="../html/js/js3.css" rel="stylesheet">
+</head>
+<body>
+
+
+    <button class="show-btn">버튼1</button>
+    <button class="show-btn">버튼2</button>
+
+    <div class="alert-box alert-warning" id="yellow">
+        <span>알람이 왔습니다.</span>
+        <button class="close-btn">x</button>
+    </div>
+
+    <div class="alert-box alert-info" id="blue">
+        <span>알람이 왔습니다.</span>
+        <button class="close-btn">x</button>
+    </div>
+
+    <script>
+        document.querySelectorAll(".show-btn")[0].addEventListener('click', function(){열기("yellow")});
+        // -> show-btn이란 클래스의 [0](첫번째로 show-btn 클래스를 쓴 태그)을 찾아 addEventListener 함수 실행.
+        document.querySelectorAll(".show-btn")[1].addEventListener('click', function(){열기("blue")});
+        document.querySelectorAll(".close-btn")[0].addEventListener('click', function(){닫기("yellow")});
+        document.querySelectorAll(".close-btn")[1].addEventListener('click', function(){닫기("blue")});
+        // -> close-btn이란 클래스의 [1](두번째로 close-btn 클래스를 쓴 태그)을 찾아 addEventListener 함수 실행.
+        function 닫기(id){
+            document.querySelector('#' + id).style.display = 'none';
+            // ->#id = id의 style.display = 'none' 으로 바꾸는 코드,
+            //   *querySelector 함수는 class = '.', id = '#' 를 쓰고 class명, id명을 작성해야함.
+         }
+        function 열기(id){
+            document.querySelector('#' + id).style.display = 'block';
+        }
+    </script>
+</body>
+</html>
